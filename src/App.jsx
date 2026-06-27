@@ -214,6 +214,12 @@ function App() {
               className="pdf-iframe" 
               title="PDF Preview"
             />
+            <div className="mobile-pdf-fallback">
+              <FileText size={48} style={{ opacity: 0.5, marginBottom: '1rem' }} />
+              <h3>PDF Preview Not Supported</h3>
+              <p>Your mobile browser doesn't support inline PDF previews.</p>
+              <p>Please use the Download button above to view your PDF.</p>
+            </div>
           </div>
         </div>
       )}

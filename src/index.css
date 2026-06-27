@@ -317,6 +317,23 @@ body {
   width: 100%;
   border: none;
   background: #fff;
+  display: block;
+}
+
+.mobile-pdf-fallback {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  flex: 1;
+}
+
+.mobile-pdf-fallback h3 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
 }
 
 /* Responsive Design for Tablets & Mobile */
@@ -362,5 +379,13 @@ body {
   .modal-content {
     width: 95%;
     height: 95%;
+  }
+
+  .pdf-iframe {
+    display: none;
+  }
+
+  .mobile-pdf-fallback {
+    display: flex;
   }
 }
