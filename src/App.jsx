@@ -57,6 +57,7 @@ const MarkdownComponents = {
 };
 
 function App() {
+  console.log("App loaded");
   const [markdown, setMarkdown] = useState(DEFAULT_MARKDOWN);
   const [pdfBlobUrl, setPdfBlobUrl] = useState(null);
   const [isGenerating, setIsGenerating] = useState(false);
