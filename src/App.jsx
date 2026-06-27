@@ -130,7 +130,7 @@ function App() {
     <div className="app-container">
       <header className="header glass">
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <img src="/hp_logo.png" alt="MD2PDF Logo" style={{ height: '32px', width: 'auto' }} />
+          <img src={`${import.meta.env.BASE_URL}hp_logo.png`} alt="MD2PDF Logo" style={{ height: '32px', width: 'auto' }} />
           <h1>MD2PDF</h1>
         </div>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
